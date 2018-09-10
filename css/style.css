@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+/* Base
+------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  letter-spacing: .1em;
+  color: #4c4c4c;
+  background-color: #fdfcf6; }
+
+a {
+  text-decoration: none;
+  color: #14c0c9; }
+
+a:visited {
+  color: #0f949b; }
+
+a:hover {
+  color: #0f949b; }
+
+a:active {
+  color: #16d6e0; }
+
+a:hover {
+  text-decoration: underline; }
+
+/* Align
+------------------------------------------------------------*/
+.text-center {
+  text-align: center; }
+
+/* Layout
+------------------------------------------------------------*/
+.block-center,
+section .container,
+#skills i {
+  display: block;
+  margin-right: auto;
+  margin-left: auto; }
+
+/* Font
+------------------------------------------------------------*/
+.abel,
+section h2,
+#skills h3,
+#works .works-box a .works-box-inner .button-readmore {
+  font-family: 'Abel', sans-serif; }
+
+.uppercase,
+section h2,
+#skills h3,
+#works .works-box a .works-box-inner .button-readmore {
+  text-transform: uppercase; }
+
+/* Header
+------------------------------------------------------------*/
+.profile {
+  background-image: url("../images/kadai-top.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; }
+
+/* Contents
+------------------------------------------------------------*/
+section {
+  padding: 60px 0; }
+
+section .container {
+  width: 90%; }
+
+section h2 {
+  font-size: 32px;
+  font-size: 3.2rem; }
+
+#skills {
+  background-color: #bea300; }
+
+#skills .container {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between; }
+
+#skills h2 {
+  margin-bottom: 60px;
+  color: #fdfcf6; }
+
+#skills .skill-box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 32%;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #fdfcf6; }
+
+#skills .text-box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 50px 0;
+  background-color: #fdfcf6;
+  text-align: center;
+  background-color: #000; }
+
+#skills h3 {
+  font-size: 24px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  padding: 15px 0;
+  color: #14c0c9;
+  vertical-align: middle; }
+
+.button {
+  width: 300px;
+  margin: 0 auto;
+  padding: 15px 0;
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: #FFFFFF;
+  background: #008DDD;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  /* for Safari and Chrome 対応*/
+  -moz-border-radius: 5px;
+  /* for Firefox 対応*/ }
+
+@media (max-width: 768px) {
+  .profile {
+    height: 250px; }
+
+  #skills .container {
+    flex-direction: column; }
+
+  #skills .skill-box {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */
